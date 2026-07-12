@@ -1,0 +1,23 @@
+{
+  "name": "genpark-email-deliverability-dns-auditor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - DNS records validator for marketing senders.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "dns",
+    "email"
+  ],
+  "inputs": {
+    "domain": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "is_valid": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
